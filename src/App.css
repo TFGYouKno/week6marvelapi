@@ -1,0 +1,43 @@
+/* Styles for the navigation bar */
+body {
+  margin:0;
+  padding:0;
+}
+
+nav {
+  background-color: #ED1D24;
+  overflow: hidden;
+}
+
+/* Navigation link styles */
+nav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the color of links on hover */
+nav a:hover {
+  background-color: black;
+}
+
+/* Style for the currently active link */
+nav a.active {
+  background-color: gray;
+  color: white;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.comic, .character {
+  margin: 20px;
+  text-align: center;
+}
